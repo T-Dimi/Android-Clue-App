@@ -1,0 +1,73 @@
+#c, #l, #u, #e {
+    background-color: black;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+#suspects, #rooms, #weapons {
+    margin: 0px 0px 0px 2em;
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Inconsolata', monospace;
+    border: 5px solid green;
+    font-size: 14px;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid green;
+    background-color: green;
+    font-size: 65px;
+    font-family: 'Staatliches', cursive;
+    color: rgba(255, 255, 255, 0.849);
+    text-shadow:
+        -1px -1px 0 rgb(40, 145, 31),  
+        1px -1px 0 rgb(40, 145, 31),
+        -1px 1px 0 rgb(40, 145, 31),
+        1px 1px 0 rgb(40, 145, 31);
+    margin: 0px 0px 40px 0px;
+    padding: 5px 0px;
+}
+
+select {
+  text-align: center;
+  text-align-last: center;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  margin: 10px 0px;
+  font-size: 14px;
+  font-family: 'Inconsolata', monospace;
+  border: 1px solid green;
+  height: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://static.thenounproject.com/png/877877-200.png) 96% / 15% no-repeat #eee;
+}
+
+button{
+    background-color: green;
+    border: none;
+    color:rgba(255, 255, 255, 0.849);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Inconsolata', monospace;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color:rgb(40, 145, 31); 
+    color: rgba(255, 255, 255, 0.849);
+    border: 2px solid rgba(247, 181, 0, 0.836);
+}
